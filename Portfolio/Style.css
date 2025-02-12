@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    padding:34px;
+    margin: 24px;
+}
+.container {
+    text-align: center;
+}
+h1,p{
+    color: bisque;
+}
+input,textarea{
+    width:80%;
+    margin: 23px;
+    padding: 8px;
+    border-radius: 20px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.KGP{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    font-size: 34px;
+    font-weight:lighter;
+    opacity: 0.9;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color:rgb(21, 52, 29);
+    cursor: pointer;
+    border-radius: 10px;
+}
